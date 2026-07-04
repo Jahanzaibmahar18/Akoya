@@ -55,7 +55,7 @@ const Navbar = () => {
               Client Login
             </button>
 <Link to="/BookNow">
-            <button className="px-5 py-2 border rounded-2xl border-yellow-400 text-white hover:bg-yellow-400 hover:text-black transition">
+            <button className="px-5 py-2 border rounded-2xl border-yellow-400 text-white hover:bg-yellow-300 hover:text-black transition">
               Book Now
             </button> 
             </Link>
