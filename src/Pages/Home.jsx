@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
-// import PlatinumCare from "../assets/Images/PlatinumCare.jpg"
-import PlatinumCare from "../assets/Images/PlatinumCare.jpg";
+import PlatinumCare from "../assets/Images/platinumCare.jpg";
 import eco from "../assets/Images/eco.jpg"
 import pressing from "../assets/Images/pressing.jpg"
 import SignatureLines from "../Components/homeComponents/SignatureLines.jsx";
@@ -38,10 +37,10 @@ const Home = () => {
       <section className="relative w-full h-[90vh]  ">
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
-          
+
           pagination={{ clickable: true }}
           autoplay={{ delay: 5000 }}
-          
+
           className="h-full"
         >
           {slides.map((slide, index) => (
@@ -73,9 +72,9 @@ const Home = () => {
       </section>
       <SignatureLines />
       <Washed />
-   <Fragrances />
-<FinalTouch/>
-<HowItWorks/>
+      <Fragrances />
+      <FinalTouch />
+      <HowItWorks />
     </div>
   );
 };
