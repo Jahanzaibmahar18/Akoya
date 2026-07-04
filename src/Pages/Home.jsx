@@ -1,6 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
-import PlatinumCare from "../assets/Images/PlatinumCare.jpg"
+// import PlatinumCare from "../assets/Images/PlatinumCare.jpg"
+import PlatinumCare from "../assets/Images/PlatinumCare.jpg";
 import eco from "../assets/Images/eco.jpg"
 import pressing from "../assets/Images/pressing.jpg"
 import SignatureLines from "../Components/homeComponents/SignatureLines.jsx";
