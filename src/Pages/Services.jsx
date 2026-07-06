@@ -18,7 +18,8 @@ import kurta from "../assets/Images/kurta.jpg"
 import kurtaPajama from "../assets/Images/kurtaPajama.jpg"
 import abaya from "../assets/Images/abaya.jpg"
 import kameez from "../assets/Images/kameez.jpg"
-import jalabiya from "../assets/Images/Jalabiya.jpg"
+// import jalabiya from "../assets/Images/Jalabiya.jpg"
+import jalabiya from "../assets/Images/jalabiya.jpg" 
 import abayas from "../assets/Images/abayas.jpg"
 import hijab from "../assets/Images/hijab.png"
 import gents from "../assets/Images/gents.jpg"
@@ -161,7 +162,7 @@ const Services = () => {
         },
         {
             title: "Jalabiya",
-            image: jalabiya,
+            image: jalabiya, 
             description:
                 "Stain removal, fabric softening, and special treatments.",
             price: "From 2 QAR",
