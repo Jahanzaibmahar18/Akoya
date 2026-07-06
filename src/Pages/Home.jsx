@@ -3,15 +3,15 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import PlatinumCare from "../assets/Images/platinumCare.jpg";
 import eco from "../assets/Images/eco.jpg"
 import pressing from "../assets/Images/pressing.jpg"
-import SignatureLines from "../Components/homeComponents/SignatureLines.jsx";
-import Washed from "../Components/homeComponents/Washed.jsx";
-import HowItWorks from "../Components/homeComponents/HowItWorks.jsx";
+import SignatureLines from "../Components/homeComponent/SignatureLines.jsx";
+import Washed from "../Components/homeComponent/Washed.jsx";
+import HowItWorks from "../Components/homeComponent/HowItWorks.jsx";
 
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import Fragrances from "../Components/homeComponents/Fragrance.jsx";
-import FinalTouch from "../Components/homeComponents/FinalTouch.jsx";
+import Fragrances from "../Components/homeComponent/Fragnance.jsx";
+import FinalTouch from "../Components/homeComponent/FinalTouch.jsx";
 
 const slides = [
   {

@@ -1,7 +1,7 @@
 import React from "react";
-import Choseakoya from "../Components/homeComponents/Aboutcomponent/Choseakoya.jsx";
-import ServiceJourney from "../Components/homeComponents/Aboutcomponent/ServiceJourney.jsx";
-import FabricSpecialists from "../Components/homeComponents/Aboutcomponent/FabricSpecialists.jsx";
+import Choseakoya from "../Components/Aboutcomponent/Choseakoya.jsx";
+import ServiceJourney from "../Components/Aboutcomponent/ServiceJourney.jsx";
+import FabricSpecialists from "../Components/Aboutcomponent/FabricSpecialists.jsx";
 
 const About = () => {
   return (
@@ -31,8 +31,8 @@ const About = () => {
       </section>
 
       <Choseakoya />
-      <ServiceJourney/>
-      <FabricSpecialists/>
+      <ServiceJourney />
+      <FabricSpecialists />
     </>
   );
 };

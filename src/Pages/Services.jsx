@@ -4,7 +4,7 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import pressing from "../assets/Images/pressing.jpg";
 import dryCleaning from "../assets/Images/dryCleaning.jpg";
 import couture from "../assets/Images/pressing.jpg"; // replace with real image if available
-import PersonalizedService from "../Components/homeComponents/Personalized";
+import PersonalizedService from "../Components/homeComponent/Personalized.jsx";
 import expressing from "../assets/Images/expressing.jpg";
 import care from "../assets/Images/care.jpg"
 import resturation from "../assets/Images/resturation.jpg"
@@ -343,7 +343,7 @@ const Services = () => {
                                 key={index}
                                 className="bg-white rounded-2xl shadow-md hover:shadow-xl transition overflow-hidden"
                             >
-                               
+
                                 <div className="h-56 w-full overflow-hidden">
                                     <img
                                         src={service.image}
@@ -376,7 +376,7 @@ const Services = () => {
                 </div>
             </section>
 
-        
+
             <PersonalizedService />
         </div>
     );

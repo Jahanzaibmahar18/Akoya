@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from "./Navbar";
+import Navbar from "./Components/common/Navbar";
 import Home from "./Pages/Home";
 import Services from "./Pages/Services";
-import Footer from "./Footer";
+import Footer from "./Components/common/Footer";
 import About from './Pages/about';
 import VisionMission from './Pages/VisionMission'
 import Contact from "./Pages/Contact";
@@ -16,10 +16,10 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
         <Route path="/VisionMission" element={<VisionMission />} />
-        <Route path='/contact' element={<Contact />}/>
-        <Route path='/BookNow' element={<BookNow/>}/>
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/BookNow' element={<BookNow />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </Router>
   );
 }

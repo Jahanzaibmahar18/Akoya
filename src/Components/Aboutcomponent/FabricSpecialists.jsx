@@ -1,7 +1,7 @@
 import React from "react";
-import ahmad from "../../../assets/Images/ahmad.webp";
-import layla from "../../../assets/Images/laylah.webp";
-import yousef from "../../../assets/Images/yousef.webp";
+import ahmad from "../../assets/Images/ahmad.webp";
+import layla from "../../assets/Images/laylah.webp";
+import yousef from "../../assets/Images/yousef.webp";
 const specialists = [
   {
     name: "Ahmed Al-Mansoori",
@@ -61,7 +61,7 @@ const FabricSpecialists = () => {
                 </div>
               </div>
 
-              
+
               <h3 className="text-lg font-semibold mb-1">
                 {item.name}
               </h3>
